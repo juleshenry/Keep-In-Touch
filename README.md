@@ -12,7 +12,7 @@ Quantile 0.5: 2020-01-01 00:30:51
 Quantile 0.75: 2020-01-01 02:46:15
 
 Visualized as deciles:
-![alt text](https://imgur.com/7a5h8rf)
+![alt text](https://imgur.com/7a5h8rf.png)
 
 Response Distribution:
-![alt text](https://imgur.com/imwT7OB)
+![alt text](https://imgur.com/imwT7OB.png)
