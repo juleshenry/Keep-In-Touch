@@ -1,0 +1,30 @@
+MacBook-Pro-8:touchkeeper jules$ pip freeze > requirements.txt
+MacBook-Pro-8:touchkeeper jules$ cd assets
+MacBook-Pro-8:assets jules$ touch contacts.vcf
+MacBook-Pro-8:assets jules$ cd ..
+MacBook-Pro-8:touchkeeper jules$ ls
+assets			data_analysis.py	response_server.py
+assets_real		https:			send_messages.py
+MacBook-Pro-8:touchkeeper jules$ git add assets data_analysis.py response_server.py send_messages.py 
+fatal: not a git repository (or any of the parent directories): .git
+MacBook-Pro-8:touchkeeper jules$ git init https://github.com/juleshenry/Keep-In-Touch.git
+Reinitialized existing Git repository in /Users/jules/Desktop/touchkeeper/https:/github.com/juleshenry/Keep-In-Touch.git/.git/
+MacBook-Pro-8:touchkeeper jules$ git checkout origin master
+fatal: not a git repository (or any of the parent directories): .git
+MacBook-Pro-8:touchkeeper jules$ cd assets
+MacBook-Pro-8:assets jules$ touch contacts.vcf 
+MacBook-Pro-8:assets jules$ nano contacts.vcf 
+MacBook-Pro-8:assets jules$ cd ..
+MacBook-Pro-8:touchkeeper jules$ cd assets_real/
+MacBook-Pro-8:assets_real jules$ nano contacts.vcf 
+
+
+  GNU nano 2.0.6             File: contacts.vcf                                 
+
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iOS 12.0//EN
+N:;Foo;;;
+FN:Foo
+TEL;type=CELL;type=VOICE;type=pref:+11111111111
+END:VCARD
