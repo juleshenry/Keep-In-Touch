@@ -1,8 +1,14 @@
 # Keep-In-Touch
 
-Keep in Touch is a program that uses the Twilio API to send pulse messages to close contacts, designated in assets/contacts.vcf
+Keep in Touch is a program that uses the Twilio API to send pulse messages to close contacts, designated in assets/contacts.vcf. 
 
-This New Year's, I sent 160 messages to close friends and family. Although some responses were lost in the fold due to heavy traffic, most data was captured accurately. The program sent a greeting message, followed by another greeting for a first response and then returned from a random collection of appropriate emoji's. 
+For Linux/Mac OS, you can modify crontab like so: 
+
+58 23 31 12 2 ~.../send_messages.py &>/tmp/send_messages.log
+
+#Story 
+
+On New Year's Eve 2019, I sent 160 messages to close friends and family. Although some responses were lost in the fold due to heavy traffic, most data was captured accurately. The program sent a greeting message, followed by another greeting for a first response and then returned from a random collection of appropriate emoji's. 
 
 Pulse Response Times:
 The quantiles between 2019-12-31 11:58 to 2020-01-01 14:48  were as follows:
